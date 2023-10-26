@@ -1,0 +1,275 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f77a1ae7f7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      {{>navbar}}
+      <div class="first-page" id="first-page">
+        <div class="content-1">
+          <h2>Hello It's Me</h2>
+          <h1>Shubham Tingare</h1>
+          <h2 id="head2">And I'm a <span id="text1">Web Developer</span></h2>
+          <a href="#second-page"><button id="more-info-btn">More About Me</button></a>
+
+        </div>
+        <div class="image-1">
+          <img src="images/Photo1.png" alt="" />
+        </div>
+      </div>
+      <div class="second-page" id="second-page">
+        <div class="image-1">
+          <img src="images/Photo2.png" alt="" />
+        </div>
+        <div class="content-2">
+          <h1>About <span>Me</span></h1>
+          <h2>Full Stack Developer!</h2>
+          <div class="info">
+            <p>As a web developer, my goal is to build digital landscapes that not only meet the needs of today but also inspire the possibilities of tomorrow. It's not just a job; it's a passion to create the future, one line of code at a time.In this ever-evolving field, I embrace change as a challenge and an opportunity. I'm committed to staying on the cutting edge, ensuring that my work always reflects the latest trends and best practices.With a keen eye for aesthetics and an unquenchable thirst for learning, I take pride in designing websites and applications that not only function flawlessly but also captivate and engage users.In the world of web development, I'm not just a coder; I'm a digital architect, shaping the online experiences that define our modern era.</p>
+          </div>
+          <a href="#third-page"><button id="more-info-btn">More About Me</button></a>
+        </div>
+      </div>
+      <div class="third-page" id="third-page">
+        <h1>My<span> Skills</span></h1>
+        <div class="content-3">
+          <div class="tech-skills">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <div class="skill-name"><img
+                  src="images/icons8-html-5-48.png"
+                  alt=""
+                />HTML</div>
+              <div class="progress-line">
+                <div
+                  class="progress-bar"
+                  per="90%"
+                  style="max-width: 90%;"
+                ></div>
+              </div>
+            </div>
+            <div class="skill">
+
+              <div class="skill-name"><img
+                  src="images/icons8-css-48.png"
+                  alt=""
+                />CSS</div>
+              <div class="progress-line">
+                <div
+                  class="progress-bar"
+                  per="70%"
+                  style="max-width: 70%;"
+                ></div>
+              </div>
+            </div>
+            <div class="skill">
+
+              <div class="skill-name"><img
+                  src="images/icons8-javascript-48.png"
+                  alt=""
+                />JAVASCRIPT</div>
+              <div class="progress-line">
+                <div
+                  class="progress-bar"
+                  per="80%"
+                  style="max-width: 80%;"
+                ></div>
+              </div>
+            </div>
+            <div class="skill">
+
+              <div class="skill-name"><img
+                  src="images/icons8-react-40.png"
+                  alt=""
+                />REACT</div>
+              <div class="progress-line">
+                <div
+                  class="progress-bar"
+                  per="60%"
+                  style="max-width: 60%;"
+                ></div>
+              </div>
+            </div>
+            <div class="skill">
+
+              <div class="skill-name"><img
+                  src="images/icons8-nodejs-48.png"
+                  alt=""
+                />NODEJS</div>
+              <div class="progress-line">
+                <div
+                  class="progress-bar"
+                  per="40%"
+                  style="max-width: 40%;"
+                ></div>
+              </div>
+            </div>
+            <div class="skill">
+
+              <div class="skill-name"><img
+                  src="images/icons8-mongodb-48.png"
+                  alt=""
+                />MONGODB</div>
+              <div class="progress-line">
+                <div
+                  class="progress-bar"
+                  per="70%"
+                  style="max-width: 70%;"
+                ></div>
+              </div>
+            </div>
+
+          </div>
+          <div class="prof-skills">
+            <h3>Professional Skills</h3>
+            <div class="row">
+              <div class="circular-progress-bar first">
+                <progress
+                  value="75"
+                  min="0"
+                  max="100"
+                  style="visibility:hidden;height:0;width:0;"
+                >75%</progress>
+                <p>Creativity</p>
+              </div>
+              <div class="circular-progress-bar second">
+                <progress
+                  value="0"
+                  min="0"
+                  max="100"
+                  style="visibility:hidden;height:0;width:0;"
+                >80%</progress>
+                <p>Team Work</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="circular-progress-bar third">
+                <progress
+                  value="0"
+                  min="0"
+                  max="100"
+                  style="visibility:hidden;height:0;width:0;"
+                >60%</progress>
+                <p>Communication</p>
+              </div>
+              <div class="circular-progress-bar fourth">
+                <progress
+                  value="0"
+                  min="0"
+                  max="100"
+                  style="visibility:hidden;height:0;width:0;"
+                >90%</progress>
+                <p>Problem Solving</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fourth-page" id="fourth-page">
+        <h1>Latest <span>Projects</span></h1>
+        <div class="projects">
+          <div class="project">
+            <img src="images/weather.jpg" />
+            <div class="proj-info">
+              <h5>weather News</h5>
+              <p>"Stay informed with real-time weather updates on our web project, rain or shine, we've got you covered!"
+"Plan your day with our weather web project - accurate forecasts at your fingertips!"</p>
+              <a href="https://shubhamtingare.github.io/Weather-App/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                ></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/password-generator.jpg" />
+            <div class="proj-info">
+              <h5>Password Generator</h5>
+              <p>"Enhance your online security with our reliable password generator web project."
+"Create strong, unique passwords effortlessly with our user-friendly web tool."</p>
+              <a href="https://shubhamtingare.github.io/Password-generator.github.io/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                ></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/QRCode.png" />
+            <div class="proj-info">
+              <h5>QR Code Generator</h5>
+              <p>"Generate QR codes with ease and versatility on our web project for all your information sharing needs."
+                  "Empower your business with customized QR codes for marketing and connectivity using our intuitive web tool."</p>
+              <a href="https://shubhamtingare.github.io/QR-code-generator.github.io/"><i
+                  class="fa-solid fa-arrow-up-right-from-square"
+                ></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/" target="_blank"><button
+            id="btn"
+            class="seeMore"
+          >Wanna See More!</button></a>
+      </div>
+      <div class="fifth-page" id="fifth-page">
+        <div class="contact">
+          <h1>Contact <span>Me</span></h1>
+          <h2>Let's Work Together <span>!</span></h2>
+          <p>
+            Have a project in mind or simply want to chat about web development? I'm just an email away! Feel free to reach out, and let's turn your vision into reality.Your feedback and questions are valuable to me. Drop me a message, and I'll get back to you as soon as possible. Let's start a conversation and build something amazing together.
+          </p>
+          <h4><i
+              class="fa-solid fa-envelope"
+            ></i>shubhamtingare0661@gmail.com</h4>
+          <h4><i class="fa-solid fa-phone"></i>7620630313</h4>
+        </div>
+        <form action="/contact" method="POST">
+        <div class="input-boxex">
+          <input type="text" placeholder="Enter Your Name" id="username" name="name" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email"
+          />
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="Enter Phone Number"
+          />
+          <textarea
+            name="message"
+            id=""
+            cols="15"
+            rows="5"
+            placeholder="Enter any message"
+          ></textarea>
+          <button type="submit">Submit</button>
+        </div>
+        </form>
+      </div>
+      <div class="footer">
+        <h2>Made With ❤️ by Shubham Tingare
+          <i class="fa-regular fa-copyright"></i>
+          <span>2023</span></h2>
+        <div class="icons">
+          <a href="https://github.com/" target="_blank"><i
+              class="fa-brands fa-github fa-2xl"
+            ></i></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank"><i
+              class="fa-brands fa-linkedin fa-2xl"
+            ></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i
+              class="fa-brands fa-instagram fa-2xl"
+            ></i></a>
+
+        </div>
+      </div>
+    </div>
+    <script src="css/script.js"></script>
+  </body>
+</html>
